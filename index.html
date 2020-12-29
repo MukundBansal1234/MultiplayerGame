@@ -5,6 +5,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
 <script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDS9lK7cVtOv9bNFaUuHYKnJkeexJ5CF9Y",
+    authDomain: "carmutiplayer.firebaseapp.com",
+    databaseURL: "https://carmutiplayer-default-rtdb.firebaseio.com",
+    projectId: "carmutiplayer",
+    storageBucket: "carmutiplayer.appspot.com",
+    messagingSenderId: "866350342620",
+    appId: "1:866350342620:web:29bd14d80efb8491e86f19"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
